@@ -1,4 +1,4 @@
-#Ambiente de desenvolvimento
+# Ambiente de desenvolvimento
 
 Pré-requisitos
 - JDK11
@@ -7,7 +7,7 @@ Pré-requisitos
 - Docker
 - Plugin Lombok
 
-#Comandos via Docker
+# Comandos via Docker
 (Execultar na pasta docker contida dentro do projeto)
 
 ```
@@ -15,15 +15,15 @@ $ docker-compose up
 ```
 
 
-#Comandos via Maven
+# Comandos via Maven
 
-#Build
+# Build
 
 ```
 $ mvn clean install -U 
 ```
 
-#Execução
+# Execução
 
 ```
 $ mvn spring-boot:run 
@@ -31,7 +31,7 @@ $ mvn spring-boot:run
 
 na pasta `./testCompassoUol/src/main/java/com/compassoUol/testCompassoUol/TestCompassoUolApplication.java`
 
-#Acesso Swagger
+# Acesso Swagger
 
 Para acessar a interface gráfica do Swagger acesse o endereço: 
 
